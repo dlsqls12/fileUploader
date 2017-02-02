@@ -1,0 +1,155 @@
+.aria-header {
+	height: 100px;
+	padding-top: 30px !important;
+	z-index: -1;
+}
+
+.aria-footer {
+	height: 100px;
+	padding-top: 30px !important;
+}
+
+#dropbox {
+	-moz-border-radius: 15px;
+	min-height: 450px;
+	border-radius: 5px;
+ 	background-color: #E8FFE2;
+	border: solid 2px #3C2F2E;
+}
+
+.fa-remove:before, .fa-close:before, .fa-times:before {
+    content: "\f00d";
+}
+
+.delete_btn {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: auto;
+    font: normal normal normal 14px/1 FontAwesome;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    vertical-align: middle;
+    margin: 0px 3px 0px 10px;
+    font-size: 20px;
+}
+
+.floatLeft {
+	float : left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.dragMsg {
+	font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	color: #ffffff;
+	border-radius: 5px;
+	background-color : rgb(66,133,244);
+	border: 5px #3C2F2E;
+	max-width : 600px;
+	height:78px;
+	position:absolute;
+	padding:10px;
+}
+
+.dragMsg > .dragAni {
+	position:relative;
+    -webkit-animation: mymove 350ms infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: mymove 350ms infinite;
+    animation-direction: alternate;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {bottom: -5px;}
+    to {bottom: 0px;}
+    from {bottom: -5px;}
+    to {bottom: 0px;}
+}
+
+@keyframes mymove {
+    from {bottom: -5px;}
+    to {bottom: 0px;}
+    from {bottom: -5px;}
+    to {bottom: 0px;}
+}
+
+.uploadWidget {
+	height:270px;
+	overflow-y: scroll;
+	overflow-x: visible;
+}
+
+.uploadClosePopup {
+	margin-right: 7px;
+	margin-left: 7px;
+	color: #E09E96;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+.uploadPopup {
+	position:absolute;
+	width:700px;
+	max-width:700px;
+}
+
+.uploadPopup table {
+	table-layout: fixed;
+	word-break : keep-all;
+	word-wrap : break-word;
+}
+
+.uploadPopup th {
+	text-align: center;
+}
+
+.sendBtn {
+	margin-right: 7px;
+	margin-top: 5px;
+	font-size: 10px;
+	vertical-align: middle;
+}
+
+.sendBtn:HOVER {
+	cursor: pointer;
+}
+
+.vCenter {
+	vertical-align: middle;
+	display: inline;
+	text-align: center;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fa-cloud-download:before {
+    content: "\f0ed";
+    font-size : 45px;
+}
+
+
+.dragParentMsg {
+	background:rgba(70,70,70,.3);
+	position:absolute;
+	border : 2px dotted #4285f4;
+}
+
+
+
+
+
+
+
+
+
